@@ -1,0 +1,62 @@
+/* ****************************
+*   회원가입 / 로그인 (join, login)
+**************************** */
+@charset "UTF-8";
+@import "main.css";
+
+div.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.content .section {
+    padding: 80px;
+}
+
+div.content .section>.article {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+}
+
+div.content .section>.article>ul {
+    margin: 10px auto;
+}
+
+div.content .section>.article>ul>li {
+    color: #ccc;
+    width: 95%;
+}
+
+div.content .section>.article>ul>li input {
+    width: calc(100% - 35px);
+    background-color: #f7f7f7;
+    margin: 10px 0 0 10px;
+    padding: 10px;
+    border: inherit;
+}
+
+/*gpt로 한거*/
+div.content .section>.article .btns {
+    display: flex;
+    justify-content: center;
+    /* 가로로 가운데 정렬 */
+
+}
+
+div.content .section>.article .btns input {
+    margin: 0 10px;
+    /* 버튼들 간의 간격을 추가 */
+}
+
+/*
+
+div.artivle div.btns {
+    text-align: center;
+}
+*/
+
+div.pointColor {
+    background: linear-gradient(45deg, rgba(27, 197, 217, 1) 0%, rgba(38, 59, 151, 1) 100%);
+}
